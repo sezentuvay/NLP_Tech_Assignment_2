@@ -1,0 +1,63 @@
+# sent_id = reviews-317326-0002
+# text = Really enjoyed it.
+1	Really	really	ADV	RB	_	2	advmod	2:advmod	_	_	ARGM-EXT
+2	enjoyed	enjoy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_	enjoy.01	V
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj	SpaceAfter=No	_	ARG1
+4	.	.	PUNCT	.	_	2	punct	2:punct	_	_	_
+
+# newdoc id = reviews-045753
+# sent_id = reviews-045753-0001
+# text = Compare to last decade this University is gaining more prestige in International level
+1	Compare	compare	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	8:advcl	_	compare.01	V	_	ARGM-ADV
+2	to	to	ADP	IN	_	4	case	4:case	_	_	_	_	_
+3	last	last	ADJ	JJ	Degree=Pos	4	amod	4:amod	_	_	_	_	_
+4	decade	decade	NOUN	NN	Number=Sing	1	obl	1:obl:to	_	_	ARG2	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	_	_	_	_	_
+6	University	University	PROPN	NNP	Number=Sing	8	nsubj	8:nsubj	_	_	_	_	ARG0
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_	be.03	_	V	_
+8	gaining	gain	VERB	VBG	VerbForm=Ger	0	root	0:root	_	gain.02	_	_	V
+9	more	more	ADJ	JJR	Degree=Cmp	10	amod	10:amod	_	_	_	_	_
+10	prestige	prestige	NOUN	NN	Number=Sing	8	obj	8:obj	_	_	_	_	ARG1
+11	in	in	ADP	IN	_	13	case	13:case	_	_	_	_	_
+12	International	international	ADJ	JJ	Degree=Pos	13	amod	13:amod	_	_	_	_	_
+13	level	level	NOUN	NN	Number=Sing	8	obl	8:obl:in	_	_	_	_	ARGM-ADV
+
+# newdoc id = reviews-067826
+# sent_id = reviews-067826-0001
+# text = If you're looking for homestyle Japanese food, you can't beat this
+1	If	if	SCONJ	IN	_	4	mark	4:mark	_	_	_	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	4:nsubj	SpaceAfter=No	_	_	ARG0	_
+3	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_	be.03	V	_	_
+4	looking	look	VERB	VBG	VerbForm=Ger	13	advcl	13:advcl:if	_	look.01	_	V	ARGM-ADV
+5	for	for	ADP	IN	_	8	case	8:case	_	_	_	_	_
+6	homestyle	homestyle	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	_	_	_
+7	Japanese	japanese	ADJ	JJ	Degree=Pos	8	amod	8:amod	_	_	_	_	_
+8	food	food	NOUN	NN	Number=Sing	4	obl	4:obl:for	SpaceAfter=No	_	_	ARG1	_
+9	,	,	PUNCT	,	_	13	punct	13:punct	_	_	_	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	13:nsubj	_	_	_	_	ARG0
+11	ca	can	AUX	MD	VerbForm=Fin	13	aux	13:aux	SpaceAfter=No	_	_	_	ARGM-MOD
+12	n't	not	PART	RB	_	13	advmod	13:advmod	_	_	_	_	ARGM-NEG
+13	beat	beat	VERB	VB	VerbForm=Inf	0	root	0:root	_	beat.03	_	_	V
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	13	obj	13:obj	_	_	_	_	ARG1
+
+# newdoc id = reviews-224123
+# sent_id = reviews-224123-0001
+# text = ok
+1	ok	ok	INTJ	UH	_	0	root	0:root	_	_	
+
+# sent_id = reviews-224123-0002
+# text = can't remember good or bad, so it must have been meh.
+1	ca	can	AUX	MD	VerbForm=Fin	3	aux	3:aux	SpaceAfter=No	_	ARGM-MOD	_	_
+2	n't	not	PART	RB	_	3	advmod	3:advmod	_	_	ARGM-NEG	_	_
+3	remember	remember	VERB	VB	VerbForm=Inf	0	root	0:root	_	remember.01	V	_	_
+4	good	good	ADJ	JJ	Degree=Pos	3	ccomp	3:ccomp	_	_	ARG2	_	_
+5	or	or	CCONJ	CC	_	6	cc	6:cc	_	_	_	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	4	conj	3:ccomp|4:conj:or	SpaceAfter=No	_	_	_	_
+7	,	,	PUNCT	,	_	3	punct	3:punct	_	_	_	_	_
+8	so	so	ADV	RB	_	13	advmod	13:advmod	_	_	_	_	ARGM-ADV
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	_	_	_	_	ARG1
+10	must	must	AUX	MD	VerbForm=Fin	13	aux	13:aux	_	_	_	_	ARGM-MOD
+11	have	have	AUX	VB	VerbForm=Inf	13	aux	13:aux	_	have.01	_	V	_
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	13:cop	_	be.01	_	_	V
+13	meh	meh	ADJ	JJ	Degree=Pos	3	parataxis	3:parataxis	SpaceAfter=No	_	_	_	ARG2
+14	.	.	PUNCT	.	_	3	punct	3:punct	_	_	_	_	_
